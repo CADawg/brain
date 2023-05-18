@@ -12,3 +12,5 @@ Random thoughts and interesting stuff I've gathered. These are unpolished, so do
 - If you have improvements or suggestions, PRs are welcome.
 
 Heavily inspired by [sw-yx's second brain](https://github.com/sw-yx/brain)
+
+View more of my stuff on [GitHub](https://github.com/CADawg)
