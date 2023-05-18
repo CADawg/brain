@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 NPM: [NPM - Hive Keychain SDK](https://www.npmjs.com/package/keychain-sdk)
 
 ### Signing A Challenge (Login):

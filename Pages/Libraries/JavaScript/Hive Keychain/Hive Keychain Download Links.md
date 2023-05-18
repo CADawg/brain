@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ```html
 <a href="https://chrome.google.com/webstore/detail/hive-keychain/jcacnejopjdphbnjgfaaobbfafkihpep">Chrome</a>,  
 <a href="https://chrome.google.com/webstore/detail/hive-keychain/jcacnejopjdphbnjgfaaobbfafkihpep">Brave</a>,  

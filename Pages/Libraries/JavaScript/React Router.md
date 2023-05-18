@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Now works out of the box with Preact, [react-router-dom](https://www.npmjs.com/package/react-router-dom) on NPM.
 The Accepted way to do React Router is now to define it in the index.js file like so:
 
