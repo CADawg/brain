@@ -3,3 +3,4 @@ To work with a full SQL database locally I setup [Caddy](https://caddyserver.com
 # Potential Pitfalls
 
 ## Caddy & php-fpm are running as different users
+They need to at least share a group - for example my web host gives them both www-data roles which controls the php-fpm unix socket at 
