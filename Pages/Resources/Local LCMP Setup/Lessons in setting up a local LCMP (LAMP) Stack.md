@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 To work with a full SQL database locally I setup [Caddy](https://caddyserver.com/) with [php-fpm](https://archlinux.org/packages/extra/x86_64/php-fpm/), [phpmyadmin](https://archlinux.org/packages/extra/any/phpmyadmin/) and [MariaDB](https://mariadb.org/).
 
 # Potential Pitfalls
@@ -14,5 +17,22 @@ Go into the phpMyAdmin directory (`/usr/share/webapps/phpMyAdmin/` if you instal
 ```php
 $cfg['TempDir'] = '/tmp';
 ```
-If it is still not happy then, restart php-fpm and caddy.
+If it is still not happy, then restart php-fpm and caddy.
 
+## Enabling mysqli
+On arch linux, the mysqli plugin (and a bunch more) come preinstalled with the base image, simply edit the `/etc/php/php.ini` file to uncomment the line 
+```php
+extension=mysqli
+```
+(line 931 as I write this)
+
+## Caddy Config
+```caddyfile
+http:// {
+	root * /usr/share/webapps/phpMyAdmin/
+	
+	php_fastcgi unix//run/php-fpm/php-fpm.sock
+
+	file_server
+}
+```
