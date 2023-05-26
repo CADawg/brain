@@ -130,3 +130,5 @@ Your selected colors:
     Accent: #556d63 (RGB: 85, 109, 99)
 
 Realtime Colors link for selected colors: https://realtimecolors.com/?colors=f4f1f2-060405-556d63-000000-556d63
+
+#Web

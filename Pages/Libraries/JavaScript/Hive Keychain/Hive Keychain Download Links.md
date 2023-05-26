@@ -9,4 +9,4 @@ dg-publish: true
 <a href="https://play.google.com/store/apps/details?id=com.mobilekeychain">Android</a>
 ```
 
-#HiveKeychain
+#HiveKeychain #Web #React

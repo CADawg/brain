@@ -22,3 +22,5 @@ render(<RouterProvider router={router} />, document.getElementById('app') as HTM
 ### Loaders
 Allow you to load async data and access them as if they were syncronous.
 [[React Router - Loader]]
+
+#Web #React
