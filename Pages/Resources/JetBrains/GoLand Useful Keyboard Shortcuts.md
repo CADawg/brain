@@ -1,5 +1,6 @@
 
 CTRL + SPACE = Show Suggestions
+ - + Tab = Replace next item with current suggestion
 Alt + Enter = Show Intentions (Export Function, Fix Bug .etc.)
 Double Tap Shift = Search Everywhere
 Ctrl + Q = View Docs (+ Twice to open sidebar)
@@ -18,4 +19,5 @@ Ctrl + Alt + Shift + T = Extract Type
 Alt + Enter (In json: tag) -> Change field name style = Change field casing
 Alt + Enter (in json tag) -> Update key value in tags. Can add ,omitempty easily
 Alt + Enter -> Add keys to tags (generate new tags like db, xml, asn1)
-Ctrl + Q = Quick Documentation
+Ctrl + Q = Quick Documentation (Esc to close)
+Ctrl + Shift + Enter = Complete statement and newline
