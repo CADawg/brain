@@ -10,3 +10,9 @@ Alt + Enter after bracket of function = Reformat args
 Ctrl + Shift + -> = Highlight next code block
 Ctrl + W = Extend selection to next code block (+ Shift = Shrink Selection)
 Ctrl + / = Comment out line
+Ctrl + Shift + /  = Comment selection
+Paste in JSON (Dialog Pops Up) = Convert to go Struct
+Escape on generated text = Finish editing
+Ctrl + Alt + Shift + T = Extract Type
+Alt + Enter (In json: tag) -> Change field name style = Change field casing
+Alt + Enter (in json tag) -> Update key value in tags. Can add ,omitempty easily
