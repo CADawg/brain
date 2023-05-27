@@ -12,7 +12,10 @@ Ctrl + W = Extend selection to next code block (+ Shift = Shrink Selection)
 Ctrl + / = Comment out line
 Ctrl + Shift + /  = Comment selection
 Paste in JSON (Dialog Pops Up) = Convert to go Struct
+Or alt + enter on "struct" text -> generate struct tags from json
 Escape on generated text = Finish editing
 Ctrl + Alt + Shift + T = Extract Type
 Alt + Enter (In json: tag) -> Change field name style = Change field casing
 Alt + Enter (in json tag) -> Update key value in tags. Can add ,omitempty easily
+Alt + Enter -> Add keys to tags (generate new tags like db, xml, asn1)
+Ctrl + Q = Quick Documentation
