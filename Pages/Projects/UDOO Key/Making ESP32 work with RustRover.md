@@ -1,8 +1,9 @@
-
+# Setup
+To initially get setup from zero, I followed [The Rust on ESP Book](https://esp-rs.github.io/book/) which got me 99% of the way there. I encountered one issue when running it inside of the new RustRover IDE.
 
 # Issues I encountered
 
-### Unknown Target Triple 'xtensa'
+## Unknown Target Triple 'xtensa'
 When building for the ESP32 via RustRover's Inbuilt Run Feature (pictured below) ![](../../../Assets/Pasted%20image%2020230913163551.png) 
 I encountered the following error when building `esp-idf-sys` 
 ```bash
@@ -15,3 +16,9 @@ Built components: esp_ringbuf, efuse, esp_ipc, driver, esp_pm, mbedtls, bootload
   - File I/O errors
   - Host vs. target architecture mismatch
 ```
+I found that the reason for this was that under Wayland, the `.bashrc` file (where The Rust on ESP Book suggests you save your environment variable exports) is not loaded by default in wayland. This meant when running it via the inbuilt Run feature it would not work, however when running it in the Inbuilt terminal it ran fine due to the fact the inbuilt terminal appears to read the `.bashrc` file.
+
+### Solutions
+#### Wayland
+
+#### All
