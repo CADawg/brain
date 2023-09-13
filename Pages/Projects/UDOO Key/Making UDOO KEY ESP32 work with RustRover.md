@@ -1,8 +1,20 @@
+---
+dg-publish: true
+tags:
+  - JetBrains
+  - Rust
+  - RustRover
+  - ESP
+  - ESP32
+  - Environment_Variables
+  - Wayland
+  - Linux
+  - Dev
+---
 # Setup
 To initially get setup from zero, I followed [The Rust on ESP Book](https://esp-rs.github.io/book/) which got me 99% of the way there. I encountered one issue when running it inside of the new RustRover IDE. The below solutions assume you have followed the guide as well so as to generate a `export-esp.sh` file.
 
-When choosing between RISC-V 
-
+When choosing between "RISC-V Targets Only" and "RISC-V and Xtensa targets", you will want to pick the one with Xtensa targets for ESP32s I believe, especially in the case of the UDOO Key. When choosing the board type for the ESP32 in setting up the project, it appears the UDOO Key is just a standard `esp32` board, without any of the other letters offered.
 # Issues I encountered
 
 ## Unknown Target Triple 'xtensa'
@@ -37,5 +49,3 @@ You can edit environment variables for each individual configuration by clicking
 In here, click the button to edit your environment variables.
 ![](../../../Assets/Pasted%20image%2020230913164959.png)
 Then click `+` to add a new one and set the name to `LIBCLANG_PATH` and the value to the value inside `~/export-esp.sh` for `LIBCLANG_PATH` without the quotes, and that action should now run successfully.
-
-#Rust #RustRover #ESP #ESP32 #JetBrains #Environment_Variables #Wayland
