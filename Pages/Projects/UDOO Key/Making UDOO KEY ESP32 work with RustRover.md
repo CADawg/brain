@@ -45,7 +45,7 @@ Restart your PC, and Voila! The run command should now work successfully.
 #### All
 ![](../../../Assets/run-esp-web-cache-edit.png)
 You can edit environment variables for each individual configuration by clicking the above pictured "Edit..." button.
-![](../../../Assets/Pasted%20image%2020230913164859.png)
+![](../../../Assets/environment-variables-edit-btn.png)
 In here, click the button to edit your environment variables.
 ![](../../../Assets/add-path-to-run-config.png)
 Then click `+` to add a new one and set the name to `LIBCLANG_PATH` and the value to the value inside `~/export-esp.sh` for `LIBCLANG_PATH` without the quotes, and that action should now run successfully.
