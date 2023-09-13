@@ -20,5 +20,14 @@ I found that the reason for this was that under Wayland, the `.bashrc` file (whe
 
 ### Solutions
 #### Wayland
-
+Copy the `LIBCLANG_PATH` from `~/export-esp.sh` 
+![](../../../Assets/Pasted%20image%2020230913164432.png)
+and place it without quotes i.e. 
+`LIBCLANG_PATH=/home/conor/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-16.0.0-20230516/esp-clang/lib`
+inside the file (Create it if it doesn't exist) 
+`~/.config/environment.d/envvars.conf`
+![](../../../Assets/Pasted%20image%2020230913164604.png)
+Restart your PC, and Voila! The run command should now work successfully.
 #### All
+![](../../../Assets/Pasted%20image%2020230913164810.png)
+You can edit environment variables for each individual configuration by clicking the above pictured "Edit..." button.
