@@ -1,5 +1,7 @@
 # Setup
-To initially get setup from zero, I followed [The Rust on ESP Book](https://esp-rs.github.io/book/) which got me 99% of the way there. I encountered one issue when running it inside of the new RustRover IDE.
+To initially get setup from zero, I followed [The Rust on ESP Book](https://esp-rs.github.io/book/) which got me 99% of the way there. I encountered one issue when running it inside of the new RustRover IDE. The below solutions assume you have followed the guide as well so as to generate a `export-esp.sh` file.
+
+When choosing between RISC-V 
 
 # Issues I encountered
 
@@ -31,3 +33,9 @@ Restart your PC, and Voila! The run command should now work successfully.
 #### All
 ![](../../../Assets/Pasted%20image%2020230913164810.png)
 You can edit environment variables for each individual configuration by clicking the above pictured "Edit..." button.
+![](../../../Assets/Pasted%20image%2020230913164859.png)
+In here, click the button to edit your environment variables.
+![](../../../Assets/Pasted%20image%2020230913164959.png)
+Then click `+` to add a new one and set the name to `LIBCLANG_PATH` and the value to the value inside `~/export-esp.sh` for `LIBCLANG_PATH` without the quotes, and that action should now run successfully.
+
+#Rust #RustRover #ESP #ESP32 #JetBrains #Environment_Variables #Wayland
