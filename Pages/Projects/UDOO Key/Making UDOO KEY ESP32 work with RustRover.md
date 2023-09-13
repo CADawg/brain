@@ -10,6 +10,7 @@ tags:
   - Wayland
   - Linux
   - Dev
+imageNameKey: udoo-key-esp32-rustrover
 ---
 # Setup
 To initially get setup from zero, I followed [The Rust on ESP Book](https://esp-rs.github.io/book/) which got me 99% of the way there. I encountered one issue when running it inside of the new RustRover IDE. The below solutions assume you have followed the guide as well so as to generate a `export-esp.sh` file.
@@ -35,7 +36,7 @@ I found that the reason for this was that under Wayland, the `.bashrc` file (whe
 ### Solutions
 #### Wayland
 Copy the `LIBCLANG_PATH` from `~/export-esp.sh` 
-![](../../../Assets/path-file-example.png)
+![A sh script containing export statements](../../../Assets/path-file-example.png)
 and place it without quotes i.e. 
 `LIBCLANG_PATH=/home/conor/.rustup/toolchains/esp/xtensa-esp32-elf-clang/esp-16.0.0-20230516/esp-clang/lib`
 inside the file (Create it if it doesn't exist) 
