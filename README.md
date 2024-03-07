@@ -2,7 +2,7 @@
 dg-home: true
 dg-publish: true
 ---
-# Conor's Second Brain
+# CADawg's Second Brain
 Random thoughts and interesting stuff I've gathered. These are unpolished, so don't expect too much :P.
 
 ## User Guide
