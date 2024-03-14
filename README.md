@@ -14,4 +14,4 @@ Random thoughts and interesting stuff I've gathered. These are unpolished, so do
 
 Heavily inspired by [sw-yx's second brain](https://github.com/sw-yx/brain)
 
-View more of my stuff on [GitHub](https://github.com/CADawg)
+View more of my stuff on [GitHub](https://github.com/CADawg), and slightly more polished writing on [My Blog](https://cadawg.com)
