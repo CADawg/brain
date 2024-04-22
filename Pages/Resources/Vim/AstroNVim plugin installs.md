@@ -1,0 +1,1 @@
+I keep most of my plugin installs in `~/.config/nvim/lua/user/plugins/community.lua`
