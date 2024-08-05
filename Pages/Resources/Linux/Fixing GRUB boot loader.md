@@ -10,4 +10,9 @@ After a while, I came across [rEFInd](https://www.rodsbooks.com/refind/), a boot
 
 I then reinstalled GRUB as mentioned in section 1.1 of the [GRUB Arch Wiki Page](https://wiki.archlinux.org/title/GRUB) and order was restored to the universe once again. I'd strongly recommend both these tools as it saved me a lot of hassle and meant I actually needed to know very few commands, although this likely won't always work.
 
+TL;DR - Run (GRUB should ideally be the name of your previous bootloader)
+```
+sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+```
+
 #Linux
